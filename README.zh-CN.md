@@ -33,6 +33,8 @@
 
 - 📜 [VSCode 代码片段](./.vscode/global.code-snippets) - 项目中常用的代码片段。
 
+- 🗄 后端服务器代理 - 通过 `vite.config.ts` 实现
+
 来自原始的 Vitesse
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - 就是快！
@@ -168,7 +170,7 @@ pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 
 - [ ] 在 `LICENSE` 中改变作者名
 - [ ] 在 `App.vue` 中改变标题
-- [ ] 在 `vite.config.ts` 更改主机名
+- [ ] 在 `vite.config.ts` 更改主机名、后端服务器代理
 - [ ] 在 `public` 目录下改变favicon
 - [ ] 移除 `.github` 文件夹中包含资助的信息
 - [ ] 整理 README 并删除路由

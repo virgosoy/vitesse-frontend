@@ -33,6 +33,8 @@ Difference with Vitesse
 
 - 📜 [VSCode code snippet](./.vscode/global.code-snippets) - usually code snippet in project.
 
+- 🗄 Backend server proxy - implemented by `vite.config.ts`
+
 From original Vitesse
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness
@@ -183,7 +185,7 @@ When you use this template, try follow the checklist to update your info properl
 
 - [ ] Change the author name in `LICENSE`
 - [ ] Change the title in `App.vue`
-- [ ] Change the hostname in `vite.config.ts`
+- [ ] Change the hostname and backend server proxy in `vite.config.ts`
 - [ ] Change the favicon in `public`
 - [ ] Remove the `.github` folder which contains the funding info
 - [ ] Clean up the READMEs and remove routes

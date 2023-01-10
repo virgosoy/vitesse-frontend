@@ -174,4 +174,11 @@ export default defineConfig({
     // TODO: workaround until they support native ESM
     noExternal: ['workbox-window', /vue-i18n/],
   },
+
+  // TODO: backend server proxy, update your info properly
+  server: {
+    proxy: {
+      '/api': 'http://localhost:8080',
+    },
+  },
 })
