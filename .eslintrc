@@ -1,3 +1,10 @@
 {
-  "extends": "@antfu"
+  "extends": "@antfu",
+  // 覆盖规则
+  "rules": {
+    // 大括号的位置 - 类似 Java 常见的编码规则
+    "@typescript-eslint/brace-style": ["error", "1tbs", { "allowSingleLine" : true}],
+    // else 是否有括号 - 一直都有括号
+    "curly": ["error", "all"]
+  }
 }

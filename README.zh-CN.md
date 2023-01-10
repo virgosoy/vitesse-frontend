@@ -105,6 +105,12 @@
 
 ### 编码风格
 
+与 Vitesse 的不同
+
+- [覆盖 `@antfu/eslint-config` 的一些规则](./.eslintrc) - 见 `rules` 属性
+
+来自原始的 Vitesse
+
 - 使用 Composition API 地 [`<script setup>` SFC 语法](https://github.com/vuejs/rfcs/pull/227)
 - [ESLint](https://eslint.org/) 配置为 [@antfu/eslint-config](https://github.com/antfu/eslint-config), 单引号, 无分号.
 

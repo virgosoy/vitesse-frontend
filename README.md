@@ -109,6 +109,12 @@ From original Vitesse
 
 ### Coding Style
 
+Difference with Vitesse
+
+- [Cover `@antfu/eslint-config` some rule](./.eslintrc) - see `rules` attribute
+
+From original Vitesse
+
 - Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
 - [ESLint](https://eslint.org/) with [@antfu/eslint-config](https://github.com/antfu/eslint-config), single quotes, no semi.
 
