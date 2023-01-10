@@ -31,6 +31,8 @@
 
 - 🎨 Element-Plus - 支持组件自动导入、API自动导入和黑暗模式。
 
+- 📜 [VSCode 代码片段](./.vscode/global.code-snippets) - 项目中常用的代码片段。
+
 来自原始的 Vitesse
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - 就是快！

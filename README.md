@@ -31,6 +31,8 @@ Difference with Vitesse
 
 - 🎨 Element-Plus - support components auto importing, APIs auto importing and dark mode.
 
+- 📜 [VSCode code snippet](./.vscode/global.code-snippets) - usually code snippet in project.
+
 From original Vitesse
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness
