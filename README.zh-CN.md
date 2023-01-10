@@ -16,12 +16,22 @@
 <br>
 
 <p align='center'>
-<a href="https://github.com/antfu/vitesse/blob/main/README.md">English</a> | <b>简体中文</b>
+<a href="README.md">English</a> | <b>简体中文</b>
 </p>
 
 <br>
 
+# Vitesse Frontend Only
+
+通常与 Spring 后端一起使用
+
 ## 特性
+
+与 Vitesse 的不同
+
+- 🎨 Element-Plus - 支持组件自动导入、API自动导入和黑暗模式。
+
+来自原始的 Vitesse
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - 就是快！
 

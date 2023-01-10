@@ -9,6 +9,9 @@ import '@unocss/reset/tailwind.css'
 import './styles/main.css'
 import 'uno.css'
 
+// support element-plus dark mode
+import 'element-plus/theme-chalk/dark/css-vars.css'
+
 const routes = setupLayouts(generatedRoutes)
 
 // https://github.com/antfu/vite-ssg

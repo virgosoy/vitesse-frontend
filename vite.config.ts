@@ -6,6 +6,7 @@ import Pages from 'vite-plugin-pages'
 import generateSitemap from 'vite-ssg-sitemap'
 import Layouts from 'vite-plugin-vue-layouts'
 import Components from 'unplugin-vue-components/vite'
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import AutoImport from 'unplugin-auto-import/vite'
 import Markdown from 'vite-plugin-vue-markdown'
 import { VitePWA } from 'vite-plugin-pwa'
@@ -60,6 +61,10 @@ export default defineConfig({
         'src/stores',
       ],
       vueTemplate: true,
+      // support element-plus
+      resolvers: [
+        ElementPlusResolver(),
+      ],
     }),
 
     // https://github.com/antfu/unplugin-vue-components
@@ -69,6 +74,10 @@ export default defineConfig({
       // allow auto import and register components used in markdown
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
       dts: 'src/components.d.ts',
+      // support element-plus
+      resolvers: [
+        ElementPlusResolver(),
+      ],
     }),
 
     // https://github.com/antfu/unocss
